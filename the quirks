@@ -1,4 +1,4 @@
-import type { Quirk } from "@/features/feature-quirk-builder/utilities/quirk";
+import type { Quirk } from "@/meow";
 
 export const sammyColor = "#6A006A";
 
