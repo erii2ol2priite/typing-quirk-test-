@@ -1,6 +1,6 @@
 import type { Quirk } from "@/features/feature-quirk-builder/utilities/quirk";
 
-export const solluxColor = "#A1A100";
+export const sammyColor = "#6A006A";
 
 export const upperCaseAll = {
   type: "regex",
@@ -19,24 +19,30 @@ export const alterniaQuirks: Quirk[] = [
     ],
   },
   {
-    id: "sollux-captor",
-    name: "Sollux Captor",
-    color: solluxColor,
+    id: "sammy-fumal",
+    name: "Sammy Fumal",
+    color: sammyColor,
     attributes: [
       lowerCaseAll,
       {
         type: "simple",
         match: "i",
-        replacement: "ii",
+        replacement: "io",
       },
 
       {
         type: "simple",
-        match: "s",
-        replacement: "2",
+        match: "o",
+        replacement: "oo",
+},
+
+      {
+        type: "simple",
+        match: "a",
+        replacement: "ao",
       },
       {
         type: "word",
-        match: "(too|to)",
-        replacement: "two",
+        match: "(feel)",
+        replacement: "(f)eel",
     
